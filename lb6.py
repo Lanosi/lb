@@ -20,7 +20,9 @@ n = int(input())
 
 
 def y(n):
-    if n < 3: return 0
-    if n >= 3: return 1 / (abs(y(n - 3) + math.sin(y(n - 1)) ** 2 + math.cos(y(n - 2)) ** 2)) ** 0.5
+    if n < 3:
+        return 0
+    if n >= 3:
+        return 1 / (abs(y(n - 3) + math.sin(y(n - 1)) ** 2 + math.cos(y(n - 2)) ** 2)) ** 0.5
 
 print(y(n))
