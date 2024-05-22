@@ -24,6 +24,3 @@ def y(n):
     if n >= 3: return 1 / (abs(y(n - 3) + math.sin(y(n - 1)) ** 2 + math.cos(y(n - 2)) ** 2)) ** 0.5
 
 print(y(n))
-
-    # for i in range(3,n+1):
-    #     y = 1 / (abs()) ** 0.5

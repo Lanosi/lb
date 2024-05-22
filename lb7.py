@@ -63,10 +63,10 @@ if __name__ == '__main__':
     main()
 
 #4
-# x = 0.1
-# while x < 10:
-#     if (x - 2) * x ** 1/3 == -1:
-#         print(x)
-#         break
-#     x += 0.1
-#     print((x - 2) * x ** 1/3)
+x = 0.1
+while x < 10:
+    if (x - 2) * x ** 1/3 == -1:
+        print(x)
+        break
+    x += 0.1
+    print((x - 2) * x ** 1/3)
